@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body {
+    background-color: #2f363e;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex
+}
+
+#time {
+    gap: 40px;
+    display: flex;
+    color: #fff;
+}
+
+#time .cir {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#time div {
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem
+}
+
+#time .ap {
+    position: relative;
+    font: 1em;
+    transform: translateX(-20px)
+}
